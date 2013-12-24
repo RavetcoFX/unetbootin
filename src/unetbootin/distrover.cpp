@@ -7,7 +7,7 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License at <http://www.gnu.org/licenses/> for more details.
 */
 
-#ifndef ubuntuverlist
+#ifndef ubuntuverlistm
 #define ubuntuverlist \
 "12.04_NetInstall" << "12.04_NetInstall_x64" << "12.04_HdMedia" << "12.04_HdMedia_x64" << "12.04_Live" << "12.04_Live_x64" << \
 "12.10_NetInstall" << "12.10_NetInstall_x64" << "12.10_HdMedia" << "12.10_HdMedia_x64" << "12.10_Live" << "12.10_Live_x64" << \
@@ -139,7 +139,7 @@ unetbootin::tr("<b>Homepage:</b> <a href=\"http://linuxconsole.org/\">http://lin
 unetbootin::tr("<b>Homepage:</b> <a href=\"http://linuxmint.com/\">http://linuxmint.com</a><br/>"
 	"<b>Description:</b> Linux Mint is a user-friendly Ubuntu-based distribution which includes additional proprietary codecs and other software by default.<br/>"
 	"<b>Install Notes:</b> The Live version allows for booting in Live mode, from which the installer can optionally be launched.") <<
-    "13_Live" << "13_Live_x64" << "14_Live" << "14_Live_x64" << "15_Live" << "15_Live_x64"));
+    "13_Live" << "13_Live_x64" << "14_Live" << "14_Live_x64" << "15_Live" << "15_Live_x64" << "16_Live" << "16_Live_x64"));
 distroselect->addItem("Lubuntu", (QStringList() << "12.04_Live" <<
 unetbootin::tr("<b>Homepage:</b> <a href=\"http://www.lubuntu.net/\">http://www.lubuntu.net</a><br/>"
 	"<b>Description:</b> Lubuntu is an official Ubuntu derivative featuring the LXDE desktop.<br/>"
